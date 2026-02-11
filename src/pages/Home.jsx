@@ -192,7 +192,7 @@ export default function Home() {
           shadow-intensity="1"
           environment-image="neutral"
           camera-orbit="0deg 75deg 105%"
-          style={{ width: "100%", height: "100vh" }}
+          style={{ width: "100%", height: "85vh" }}
         />
       </div>
 
