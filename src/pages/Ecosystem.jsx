@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import jerry from "../assets/jerry.png";
 import ecosystem from "../assets/ecosystem.png";
 import image2 from "../assets/image2.png";
@@ -425,29 +426,7 @@ export default function Ecosystem() {
         }
       `}</style>
 
-      <nav className="fixed top-0 w-full z-50 flex items-center justify-between px-6 md:px-12 py-6 bg-[#f6f1ea]/80 backdrop-blur-md">
-        <Link to="/" className="flex items-center gap-3">
-          <div className="h-8 w-8 rounded-full border border-black/20 flex items-center justify-center">
-            <div className="h-3 w-3 bg-black rounded-full" />
-          </div>
-          <span className="text-xl font-display uppercase tracking-[0.22em]">
-            <b>Onyu</b>
-          </span>
-        </Link>
-        <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-[0.4em] text-black/60">
-          <Link to="/experience" className="hover:text-black transition-colors">
-            Experience
-          </Link>
-          <Link to="/ecosystem" className="hover:text-black transition-colors">
-            Ecosystem
-          </Link>
-          <Link to="/buy">
-            <button className="bg-black text-white px-6 py-2 rounded-full font-semibold">
-              Buy Jerry
-            </button>
-          </Link>
-        </div>
-      </nav>
+      <Navbar bgClass="bg-[#f6f1ea]/80" />
 
       <section className="relative min-h-screen pt-32 pb-20 hero-field overflow-hidden">
         <div className="absolute inset-0 grain pointer-events-none" />
