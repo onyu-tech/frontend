@@ -41,6 +41,8 @@ Pages include:
 - **Jerry**
 - **Ecosystem**
 - **Experience**
+- **Mission**
+- **Buy**
 
 ---
 
@@ -84,6 +86,8 @@ src/
     Jerry.jsx
     Ecosystem.jsx
     Experience.jsx
+    Mission.jsx
+    Buy.jsx
   assets/
   App.jsx
   main.jsx
