@@ -30,7 +30,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
-import image from "../assets/image.png";
+import measuringguide from "../assets/measuringguide.png";
 import image2 from "../assets/image2.png";
 
 export default function Experience() {
@@ -559,7 +559,7 @@ export default function Experience() {
           <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-16 items-center">
             <div className="measure-panel">
               <img
-                src={image}
+                src={measuringguide}
                 alt="Measuring Jerry ring fit"
                 className="w-full rounded-[32px] border border-black/10 bg-white/70"
               />
