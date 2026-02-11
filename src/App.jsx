@@ -11,6 +11,7 @@ import Ecosystem from "./pages/Ecosystem";
 import Experience from "./pages/Experience";
 import Mission from "./pages/Mission";
 import Buy from "./pages/Buy";
+import Procedure from "./pages/Procedure";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,6 +34,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/buy" element={<Buy />} />
+        <Route path="/procedure" element={<Procedure />} />
       </Routes>
     </Router>
   );

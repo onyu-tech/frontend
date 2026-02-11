@@ -219,7 +219,7 @@ export default function Buy() {
               variants={fadeUp}
               className="text-5xl md:text-6xl font-display leading-[0.95]"
             >
-              The smart gesture ring,
+              The smart ring,
               <br />
               ready for everyday control.
             </motion.h1>

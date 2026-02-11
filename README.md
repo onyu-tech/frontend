@@ -43,6 +43,7 @@ Pages include:
 - **Experience**
 - **Mission**
 - **Buy**
+- **Procedure**
 
 ---
 
@@ -88,6 +89,7 @@ src/
     Experience.jsx
     Mission.jsx
     Buy.jsx
+    Procedure.jsx
   assets/
   App.jsx
   main.jsx
