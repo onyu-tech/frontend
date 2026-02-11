@@ -1,12 +1,104 @@
-this is our startup ok - 
-ONYU is a smart wearable technology startup that builds everyday accessories with intelligence inside them. Our goal is to make technology innovative — instead of using traditional mouse or multiple devices, people can control and interact with technology naturally through what they wear.
+# ONYU — Smart Wearables Ecosystem
 
-Our first product is Jerry, a smart gesture ring. Jerry lets users control laptops, phones, and other devices using simple hand gestures — like a mouse in the air. It can be used for presentations, daily work, and hands-free control, and it also includes basic health tracking.
+ONYU is a smart wearable technology startup focused on everyday accessories with intelligence inside them. Our goal is to make technology feel natural and effortless — replacing traditional devices with subtle interactions you can wear.
 
-Jerry comes with a smart charging case, which can record audio and use AI to summarize important information. All data from Jerry is synced to the ONYU app.
+We build a unified ecosystem where rings, bands, lockets, and safety accessories all connect through one app and one AI assistant. Your data stays continuous across devices so the experience feels seamless.
 
-ONYU is not just one product — it is building an ecosystem of wearables such as rings, bands, lockets and more. Every ONYU device shares the same app, the same user data, and the same AI assistant, so users can switch devices without losing their information.
+---
 
-Each wearable is designed for a different purpose — for example, a ring for productivity, a band for advanced health tracking, and safety-focused accessories for protection — but all work together as one system.
+## Products
 
-ONYU’s mission is to make advanced wearable technology affordable and accessible, especially for India, while creating a future where technology blends naturally into everyday life.
+### Jerry — Smart Gesture Ring
+Jerry is ONYU’s first product: a smart gesture ring that lets you control laptops, phones, and other screens with simple hand motions. It also includes basic health tracking and ships with a smart charging case that can record audio and generate AI summaries.
+
+**Key capabilities:**
+- Air-gesture control for navigation, presentations, and shortcuts
+- Always‑ready AI case for capturing and summarizing important moments
+- Unified sync with the ONYU app
+- Lightweight, everyday‑wear design
+
+### Ecosystem (In Progress)
+ONYU is building a full ecosystem of wearables designed for different needs:
+- **Rings** for productivity and control
+- **Bands** for advanced health tracking
+- **Safety accessories** for protection and alerts
+- **Everyday pieces** like lockets and essentials
+
+All devices share the same app, data layer, and AI assistant so users can switch without losing context.
+
+---
+
+## Website
+
+This repository contains the ONYU marketing website. It highlights:
+- The ONYU mission and product vision
+- Jerry’s experience and capabilities
+- The ecosystem story and unified AI layer
+- Support guides: sizing, integrations, shipping, FAQs, and help center
+
+Pages include:
+- **Home**
+- **Jerry**
+- **Ecosystem**
+- **Experience**
+
+---
+
+## Tech Stack
+
+- **React** (frontend framework)
+- **Vite** (build tooling)
+- **Tailwind CSS** (utility-first styling)
+- **Framer Motion** (animations)
+- **GSAP** (scroll & timeline animations)
+- **React Router** (routing)
+- **Lucide + React Icons** (iconography)
+
+---
+
+## Getting Started
+
+### Install
+```bash
+npm install
+```
+
+### Run locally
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+  pages/
+    Home.jsx
+    Jerry.jsx
+    Ecosystem.jsx
+    Experience.jsx
+  assets/
+  App.jsx
+  main.jsx
+```
+
+---
+
+## Notes
+
+- The website is designed with a premium, minimal aesthetic to match ONYU’s brand.
+- Animations are used to create smooth, modern interactions across pages.
+- Content and visuals may evolve as new devices in the ecosystem are launched.
+
+---
+
+## License
+
+This project is currently private and intended for internal use only.
