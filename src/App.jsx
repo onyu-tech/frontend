@@ -12,6 +12,7 @@ import Experience from "./pages/Experience";
 import Mission from "./pages/Mission";
 import Buy from "./pages/Buy";
 import Procedure from "./pages/Procedure";
+import NotFound from "./pages/NotFound";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -35,6 +36,7 @@ function App() {
         <Route path="/mission" element={<Mission />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="/procedure" element={<Procedure />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
